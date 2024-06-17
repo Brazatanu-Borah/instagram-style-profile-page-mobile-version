@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  color: #5f6163;
+}
+
+*,
+*::before,
+a::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #872d9f;
+}
+
+body,
+button,
+select,
+input,
+textarea {
+  font-size: 1.8rem;
+  line-height: 1.618;
+  font-weight: 400;
+  font-style: normal;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:link,
+a:visited {
+  color: #323232;
+}
+
+a:hover,
+a:active {
+  color: #323232;
+}
+
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  cursor: pointer;
+}
+
+a:focus,
+button:focus {
+  color: #778298;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+}

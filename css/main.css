@@ -1,0 +1,164 @@
+.card-wrapper {
+  max-width: 45rem;
+  width: 100%;
+  margin: 10rem auto 0 auto;
+  background-color: #fff;
+}
+
+.light-text {
+  color: #7c7e80;
+}
+
+.card-header {
+  height: 36rem;
+  background: url('../images/wave.png') no-repeat bottom center/cover;
+}
+
+.navbar {
+  display: flow-root;
+  padding: 1.5rem 3rem;
+  font-size: 2.2rem;
+}
+
+.navbar li:first-child {
+  float: left;
+}
+
+.navbar li:last-child {
+  float: right;
+}
+
+.navbar i {
+  color: #bf40e2;
+  font-size: 2.7rem;
+}
+
+.about figure {
+  display: flow-root;
+  padding: 0 4rem 0 7rem;
+}
+
+.about img {
+  float: left;
+  border-radius: 50%;
+  width: 14rem;
+  opacity: 0.85;
+}
+
+.about figcaption {
+  position: relative;
+  top: 2rem;
+  margin-left: 16rem;
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.about h2 {
+  font-size: 1.9rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.about .btn {
+  border: none;
+  background: linear-gradient(to right, #bf40e2, #9933b6);
+  color: #fff;
+  padding: 0.6rem 2.2rem;
+  border-radius: 5rem;
+  font-size: 1.6rem;
+}
+
+.about .btn i {
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+.socials {
+  padding: 5rem 8rem;
+}
+
+.socials i {
+  font-size: 2.4rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  color: rgba(191, 64, 226, 0.473);
+}
+
+.socials i:hover,
+.socials i:focus {
+  color: rgba(191, 64, 226, 0.712);
+}
+
+.card-body {}
+
+.card-body .activity {
+  display: flow-root;
+  padding: 1.5rem 7rem;
+}
+
+.card-body .followers {
+  float: left;
+  text-align: center;
+}
+
+.card-body .following {
+  float: right;
+  text-align: center;
+}
+
+.card-body .activity h2 {
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+
+.card-body .activity p {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: -1rem;
+}
+
+.gallery {
+  margin-top: 5rem;
+}
+
+.gallery-tags {
+  padding: 0 7rem;
+}
+
+.gallery-tags li {
+  display: inline-block;
+  margin-right: 3.6rem;
+}
+
+.gallery-tags li a {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.gallery-tags li:nth-child(2) a {
+  font-weight: 800;
+  border-bottom: solid 0.5rem #9a33b6cb;
+}
+
+.gallery-tags li:nth-child(3) a {
+  color: #999b9e;
+}
+
+.gallery-images {
+  display: flow-root;
+}
+
+.gallery-images img {
+  width: 33.33%;
+  height: auto;
+  float: left;
+  transition: all 0.2s ease-in-out;
+}
+
+.gallery-images img:hover {
+  opacity: 0.8;
+}
